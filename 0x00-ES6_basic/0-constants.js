@@ -1,8 +1,8 @@
-export default function taskBlock(validate) {
+export default function taskBlock(trueOrFalse) {
   let first_t = false;
   const second_t = true;
 
-  if (validate) {
+  if (trueOrFalse) {
     first_t = true;
    
   }
